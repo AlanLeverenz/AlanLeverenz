@@ -3,12 +3,16 @@
 .auth-info-section {
     min-width: 400px;
     width: 100%;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     padding:15px;
 }
 
+.info-div {
+    padding: 0;
+}
+
 .my-image {
-    width: 120px;
+    width: 100px;
     height: auto;
     float: left;
     margin-right: 15px;
@@ -25,10 +29,11 @@ p:last-child {
 /* sidebar */
 
 .sidebar {
+    clear: both;
     float: left;
     width: 100%;
     min-width: 280px;
-    padding: 30px;
+    padding: 15px;
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid #ddd;
@@ -58,6 +63,14 @@ p:last-child {
     opacity: 0.8;
   }
 
+  .email-phone {
+      font-size: .9rem;
+  }
+
+  .href:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
 
 /* portfolio */
 
@@ -66,7 +79,7 @@ p:last-child {
     overflow: auto;
     position: relative;
     float: left;
-    margin: 20px 10px 10px;
+    margin: 0 10px 10px;
 }
 
 .work img {
@@ -82,7 +95,6 @@ p:last-child {
     float: left;
     margin-right: 25px;
 }
-
 
 .work h3 {
     border-bottom: 0;
