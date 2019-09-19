@@ -1,10 +1,33 @@
+/*  top section */
+
+.auth-info-section {
+    min-width: 400px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding:15px;
+}
+
+.my-image {
+    width: 120px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+  }
+
+.img-thumbnail {
+    float:left;
+}
 
 /* sidebar */
 
 .sidebar {
     float: left;
     width: 100%;
-    max-width: 250px;
+    min-width: 280px;
     padding: 30px;
     margin-bottom: 20px;
     background: #fff;
@@ -20,14 +43,19 @@
   }
   
   .social {
-    width: 62px;
-    height: 62px;
+    width: 54px;
+    height: 54px;
     margin-top: 8px;
     margin-right: 5px;
   }
   
   .social:last-child {
     margin-right: 0;
+  }
+
+  .social:hover {
+    cursor: pointer;
+    opacity: 0.8;
   }
 
 
@@ -74,3 +102,24 @@
 .flex {
     flex-wrap: wrap;
 }
+
+  /* media screen sizes max-width*/
+
+@media screen and (max-width: 980px) {
+    .main-section {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-section {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .main-section {
+        width: 100%;
+    }
+}
+
